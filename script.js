@@ -76,7 +76,7 @@ function getWeightStatus(weight) {
   if (!weight) return 'Normal';
   weight = parseFloat(weight);
   if (weight < 30) return 'Low';
-  if (weight > 150) return 'High';
+  if (weight > 120) return 'High';
   return 'Normal';
 }
 
